@@ -1,0 +1,84 @@
+{
+    "proyectos": [
+        {
+            "_id": "web",
+            "products": [
+                {
+                    "_id": "6511105ed52414fa4531c31e",
+                    "title": "Logic operations toolkit",
+                    "description": "Toolkit with the following tools: truth table generator for any number of variables, sequence generator, set generator that supports complex operations). Made in collaboration with Roman Gonzales and Carlo Santoro. Pure python and streamlit were used for the user interface.",
+                    "link": "https://javidlt-truthtablejavicaro-toolkit-wyylc7.streamlit.app/",
+                    "category": "web",
+                    "createdAt": "2023-09-25T04:45:18.907Z",
+                    "updatedAt": "2023-09-25T04:45:18.907Z",
+                    "__v": 0
+                }
+            ]
+        },
+        {
+            "_id": "ia",
+            "products": [
+                {
+                    "_id": "65111213d52414fa4531c321",
+                    "title": "Urbalud",
+                    "description": "Urbalud is a clustering tool according to the requirements for medical care coverage according to population growth trends, its indicators and the existing health centers in certain areas delimited by AGEBs. The kmeans model, python and libraries such as pandas, numpy and matplot were used for the exploratory analysis. Project created together with Tito Velazquez, Roboerto Rodriguez, Saul Delgado, Miguel Guzman, Isabel Rivera, Fernanda Reyes and Jessica Gatica.",
+                    "link": "https://medium.com/saturdays-ai/urbalud-ia-que-identifica-si-existe-suficiencia-de-centros-de-salud-en-%C3%A1reas-urbanas-de-jalisco-a7b767f8319c",
+                    "category": "ia",
+                    "createdAt": "2023-09-25T04:52:35.831Z",
+                    "updatedAt": "2023-09-25T04:52:35.831Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "65111334d52414fa4531c324",
+                    "title": "EmbeddingsPlayground",
+                    "description": "Toolkit to work with embeddings. You can generate embeddings from a dataset with text, search a dataset with embeddings, visualize the vectors on a 3D plane and cluster the embeddings. Regarding the model used to make embeddings, one can select any of the hugging faces from the interface. It is made with python and uses libraries such as sentence transformers, torch and streamlit for the interface. Made for Signa_Lab.",
+                    "link": "https://embedplayground.streamlit.app/",
+                    "category": "ia",
+                    "createdAt": "2023-09-25T04:57:24.226Z",
+                    "updatedAt": "2023-09-25T04:57:24.226Z",
+                    "__v": 0
+                }
+            ]
+        },
+        {
+            "_id": "backend",
+            "products": [
+                {
+                    "_id": "651226cbade46402b756da6a",
+                    "title": "Backend for my portfolio",
+                    "description": "Backend for portfolio created to keep a record of the public projects I have carried out at the moment. The idea is to add sections about me over time. Like a blog I'm doing. It is made with node js, express for the server, mongo db, mongoose and some other extra libraries.",
+                    "link": "https://github.com/javidlt/BackendPortfolio/tree/main",
+                    "category": "backend",
+                    "createdAt": "2023-09-26T00:33:15.129Z",
+                    "updatedAt": "2023-09-26T02:15:49.622Z",
+                    "__v": 0
+                }
+            ]
+        },
+        {
+            "_id": "frontend",
+            "products": [
+                {
+                    "_id": "65110ebed52414fa4531c318",
+                    "title": "Web catalog",
+                    "description": "Simple jewelry web catalog. It is made with react js, vite js, tailwind css and uses reusable components, in addition to the fact that the data was loaded as constants.",
+                    "link": "https://javidlt.github.io/CatalogoWebLanding/",
+                    "category": "frontend",
+                    "createdAt": "2023-09-25T04:38:22.535Z",
+                    "updatedAt": "2023-09-26T00:28:58.900Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "65110f97d52414fa4531c31b",
+                    "title": "Imagen editor",
+                    "description": "Interface created for an image editor, in addition it has logic developed with javascript to manipulate pixels, generate filters and certain effects with the images. Javascript, p5js, html, and pure css are used for styles.",
+                    "link": "https://javidlt.github.io/Image-Editor/",
+                    "category": "frontend",
+                    "createdAt": "2023-09-25T04:41:59.410Z",
+                    "updatedAt": "2023-09-25T04:41:59.410Z",
+                    "__v": 0
+                }
+            ]
+        }
+    ]
+}
