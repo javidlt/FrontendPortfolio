@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import imgComputer from './assets/desktopComputerDalle.png'
 import imgVectors from './assets/vectors_byDalle.png'
-import jsonData from './data.json';
 import './App.css'
 
 const dictWDescription = [
