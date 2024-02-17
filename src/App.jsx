@@ -54,7 +54,8 @@ function App() {
     <>
     {loading == false ? 
       <div className="home-container">
-        <div className='padding'>
+        <div className='formatContainer'> 
+        {/*
           <img
           alt="Img vectors made by Dall-e, Open AI"
           src={imgVectors}
@@ -69,8 +70,8 @@ function App() {
           <div className="home-container01">
             <button onClick={toggleMenu} type="button" className="button">
               <svg xmlns="http://www.w3.org/2000/svg" 
-                width="16" 
-                height="14" 
+                width="30" 
+                height="26" 
                 viewBox="0 0 24 24" 
                 fill="none" 
                 stroke="#000000" 
@@ -110,15 +111,15 @@ function App() {
             </div>
           )}
           {/* banner */}
-          <div className="home-container02">
+         <div className="home-container02 padding">
             <span className="home-text">
-              Hi, my name is Francisco Javier De la Torre Silva
+              Hello, my name is Francisco Javier De la Torre Silva
             </span>
           </div>
           {/* projectss section */}
           
           {jsonDatax.proyectos.map((proyecto) => (
-          <div className="home-container03">
+          <div className="home-container03 padding">
             <div className="home-container04">
               <div className='hmecontainerWidth'>
                 <h1 className="home-text1">{proyecto._id == "ia" ? "Ai" : proyecto._id.charAt(0).toUpperCase() + proyecto._id.slice(1)} Projects</h1>
@@ -143,7 +144,7 @@ function App() {
           </div>
           ))}
           
-        </div>
+        </div> 
         {/* footer */}
         <div className="home-container07">
             <div className="home-container08">

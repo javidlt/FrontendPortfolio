@@ -59,10 +59,10 @@
   button {
     color: var(--dl-color-gray-black);
     display: inline-block;
-    padding: 0.4rem .5rem .25rem .5rem;
+    padding: 0.6rem .7rem .45rem .7rem;
     border-color: var(--dl-color-gray-black);
     border-width: 1px;
-    border-radius: 4px;
+    border-radius: 7px;
     background-color: var(--dl-color-gray-white);
   }
   button:hover {
